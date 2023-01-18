@@ -4,6 +4,10 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
+import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   const name = 'Joaozinho Da Vt'
@@ -38,6 +42,7 @@ function App() {
       <img src={rainbow_line} className="separador" alt="gif" />
         <h6>To distante de perreco faz tempo</h6>
         <img src={url} alt="minha imagem" />
+        <Frase/>
         <HelloWorld/>
         <img src={rainbow_line} className="separador" alt="gif" />
         <SayMyName nome="Matheuzinho"/>
@@ -45,6 +50,12 @@ function App() {
         <SayMyName nome={name}/>
         <img src={rainbow_line} className="separador" alt="gif" />
         <Pessoa nome="Ismael" idade="30" profissao="Agronomo" foto="https:via.placeholder.com/50" />
+        <img src={rainbow_line} className="separador" alt="gif" />
+        <List/>
+        <img src={rainbow_line} className="separador" alt="gif" />
+        <Evento numero="1"/>
+        <Evento numero="2"/>
+        <Form/>
       </header>
     </div>
   );

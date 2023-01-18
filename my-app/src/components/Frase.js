@@ -1,7 +1,9 @@
+import styles from './Frase.module.css'
+
 function Frase() {
     return(
-        <div>
-            <p>O Que o Joao Otavio Anda Pensando ??</p>
+        <div className={styles.fraseContainer}>
+            <p className={styles.fraseContent}>O Que o Joao Otavio Anda Pensando ??</p>
         </div>
     )
 }
