@@ -20,6 +20,12 @@ function Listagem() {
             sabor: 'Cokies and Cream',
             peso: '900g'
         }, 
+        {
+            marca: 'Integral Medica',
+            sabor: 'Baunilha',
+            peso: '1kg'
+        }, 
+
     ]
 
     return(
