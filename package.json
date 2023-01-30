@@ -1,0 +1,11 @@
+{
+  "name": "curso-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoaoManierii/curso-react.git",
+  "author": "Joao Otavio <jotamanieri@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
